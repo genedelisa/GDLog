@@ -9,7 +9,7 @@
 
 [![Travis](https://img.shields.io/travis/genedelisa/GDLog/master.svg)](https://travis-ci.org/genedelisa/GDLog/branches)
 
-[![Swift 4](https://img.shields.io/badge/swift4-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
+[![Swift 5](https://img.shields.io/badge/swift5-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
 
 [![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](https://swift.org/)
 [![Platforms macOS](https://img.shields.io/badge/Platforms-macOS-lightgray.svg?style=flat)](https://swift.org/)
@@ -41,46 +41,7 @@ I renamed this from GDLog since there is already a Cocoapod with that name.
 
 ## Installation
 
-### CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-
-To integrate GDLog into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
-use_frameworks!
-
-pod 'GDLog', '~> 0.0.1'
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate GDLog into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "GDLog/GDLog" ~> 0.0.1
 ```
 ### Swift Package Manager
 
@@ -149,6 +110,7 @@ $ git submodule update --init --recursive
 
 [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
 
+The SPM itself has a good logger.
 
 ## Usage
 
